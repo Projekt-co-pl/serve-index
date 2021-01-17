@@ -1,9 +1,9 @@
 {
-  "name": "@projekt-co-pl/serve-index-pl",
-  "version": "1.0.0",
+  "name": "serve-index-pl",
+  "version": "1.1.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Projekt-co-pl/serve-index.git"
+    "url": "git+https://github.com/Projekt-host/serve-index.git"
   },
   "dependencies": {
     "accepts": "~1.3.7",
@@ -32,11 +32,16 @@
     "node": ">= 0.8.0"
   },
   "bugs": {
-    "url": "https://github.com/Projekt-co-pl/serve-index/issues"
+    "url": "https://github.com/Projekt-host/serve-index/issues"
   },
-  "homepage": "https://github.com/Projekt-co-pl/serve-index#readme",
+  "homepage": "https://github.com/Projekt-host/serve-index#readme",
   "main": "index.js",
   "directories": {
     "test": "test"
-  }
+  },
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mrtalon63 <marcin@mczop.co.pl>",
+  "license": "MIT"
 }
